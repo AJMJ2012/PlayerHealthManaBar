@@ -1,0 +1,2 @@
+﻿author = Dark-Assassin
+displayName = Player Health and Mana Bars
