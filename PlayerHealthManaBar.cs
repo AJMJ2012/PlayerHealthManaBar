@@ -5,7 +5,7 @@ namespace PlayerHealthManaBar {
 	public class PlayerHealthManaBar : Mod {
 		public override void Load() {
 			if (Main.netMode == 2) { return; }
-			On.Terraria.Main.DrawInterface_14_EntityHealthBars += (DrawInterface_14_EntityHealthBars, instance) => {
+			Terraria.On_Main.DrawInterface_14_EntityHealthBars += (DrawInterface_14_EntityHealthBars, instance) => {
 				DrawInterface_14_EntityHealthBars(instance);
 				Player player = Main.player[Main.myPlayer];
 				if (player.active && !player.ghost && !player.dead) {

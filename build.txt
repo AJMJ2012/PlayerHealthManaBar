@@ -1,2 +1,3 @@
 ﻿author = Dark-Assassin
 displayName = Player Health and Mana Bars
+version = 1.0.1
